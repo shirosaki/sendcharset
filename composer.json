@@ -1,0 +1,23 @@
+{
+    "name": "shirosaki/sendcharset",
+    "type": "roundcube-plugin",
+    "description": "Roundcube plugin for customize character encoding of sending message",
+    "keywords": ["mail", "send", "charset"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joniburn",
+            "email": "joniburn@gmail.com",
+            "role": "Original Author"
+        },
+        {
+            "name": "Hiroshi Shirosaki",
+            "email": "h.shirosaki@gmail.com",
+            "role": "Lead"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "roundcube/plugin-installer": ">=0.1.6"
+    }
+}
