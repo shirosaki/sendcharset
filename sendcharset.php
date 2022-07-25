@@ -28,7 +28,7 @@ class sendcharset extends rcube_plugin
 						       'id'=>$field_id,
 						       'selected'=>$selected));
       $attrib['blocks']['main']['options']['sendcharset'] =
-	array( 'title'=>html::label($field_id, Q(rcube_label('charset'))),
+	array( 'title'=>html::label($field_id, rcube::Q($this->gettext('charset'))),
 	       'content'=>$input);
       return $attrib;
     } else {
