@@ -43,7 +43,7 @@ class sendcharset extends rcube_plugin
     if ($attrib['section'] == 'compose') {
       if (isset($_POST['_sendcharset'])) {
 	$attrib['prefs']['sendcharset'] =
-	  get_input_value('_sendcharset', RCUBE_INPUT_POST);
+	  rcube_utils::get_input_value('_sendcharset', rcube_utils::INPUT_POST);
       }
     }
     return $attrib;
